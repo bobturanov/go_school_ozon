@@ -31,4 +31,4 @@ _[source](https://gist.github.com/rusdevops/d85340e26aeac720c338874492adf637#fil
 
 Необходимо окружение `python 3.9+`
 
-    $ python3 -m unittest discover
+    $ python3 -m unittest discover -v
