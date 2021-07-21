@@ -4,7 +4,6 @@ from solution import find_subarray_with_max_sum
 
 
 class TestSubarray(TestCase):
-
     def test_find_subarray_with_max_sum(self):
         self.assertTupleEqual((3, 5), find_subarray_with_max_sum([10, -3, -12, 8, 42, 1, -7, 0, 3]))  # default case
         self.assertTupleEqual((1, 1), find_subarray_with_max_sum([-2, 1]))  # kill max_sum first element case

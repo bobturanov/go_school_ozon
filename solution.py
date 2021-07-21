@@ -12,7 +12,6 @@ def find_subarray_with_max_sum(nums: List[Number]) -> Tuple[int, int]:
             Returns:
                     (start, end) (tuple):  start and end indexes of subarray
     """
-
     if not nums:
         raise ValueError('Empty list, try not empty list')
 
